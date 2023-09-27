@@ -87,6 +87,9 @@ public class HelloWorld {
 
 //        What happens if you assign a value to a numerical variable that is larger (or smaller) than the type can hold? What happens if you increment a numeric variable past the type's capacity?
 //
+        int myInt = Integer.MAX_VALUE;
+        System.out.println(myInt);
+        System.out.println(++myInt);
 //Hint: Integer.MAX_VALUE is a class constant (we'll learn more about these later) that holds the maximum value for the int type.
 //
 //[^1]: How many bytes of memory are allocated to store a variable of this data type
