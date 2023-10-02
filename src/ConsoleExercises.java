@@ -46,16 +46,16 @@ public class ConsoleExercises {
 //      Use the nextLine method each time you need to get user input. In this case, we need it twice, once to get the user input for the length and again to get the user input for the width. Parse the resulting strings to a numeric type.
 //      Assume that the rooms are perfect rectangles.
 //      Assume that the user will enter valid numeric data for length and width.
-        System.out.println("Enter values of length Fenrir classroom at Codeup: ");
-        System.out.println("Enter values of width Fenrir classroom at Codeup: ");
-        String userLength = scanner.nextLine();
-        String userWidth = scanner.nextLine();
-        System.out.println("The length is: " + Integer.parseInt(userLength));
-        System.out.println("The width is: " + Integer.parseInt(userWidth));
-
-//        Display the area and perimeter of that classroom.
-        System.out.println("The perimeter of this classroom is: " + ((Integer.parseInt(userLength) * 2) + (Integer.parseInt(userWidth) * 2)));
-//        The area of a rectangle is equal to the length times the width, and the perimeter of a rectangle is equal to 2 times the length plus 2 times the width.
-        System.out.println("The area of this classroom is: " + (Integer.parseInt(userLength)) * (Integer.parseInt(userWidth)));
+//        System.out.println("Enter values of length Fenrir classroom at Codeup: ");
+//        System.out.println("Enter values of width Fenrir classroom at Codeup: ");
+//        String userLength = scanner.nextLine();
+//        String userWidth = scanner.nextLine();
+//        System.out.println("The length is: " + Integer.parseInt(userLength));
+//        System.out.println("The width is: " + Integer.parseInt(userWidth));
+//
+////        Display the area and perimeter of that classroom.
+//        System.out.println("The perimeter of this classroom is: " + ((Integer.parseInt(userLength) * 2) + (Integer.parseInt(userWidth) * 2)));
+////        The area of a rectangle is equal to the length times the width, and the perimeter of a rectangle is equal to 2 times the length plus 2 times the width.
+//        System.out.println("The area of this classroom is: " + (Integer.parseInt(userLength)) * (Integer.parseInt(userWidth)));
     }
 }
