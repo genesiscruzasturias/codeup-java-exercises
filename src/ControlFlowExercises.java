@@ -70,17 +70,72 @@ public class ControlFlowExercises {
 //        Only continue if the user agrees to.
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter an integer right now, user! ");
-        String userInput = scanner.nextLine();
-        System.out.println("Would you like to continue?");
-        String userInputTwo = scanner.nextLine();
-        for (int i = 1; i < Integer.parseInt(userInput); i*=2){
-            System.out.println(i + Integer.parseInt(userInput));
+//        System.out.print("Enter an integer right now, user! ");
+//        String userInput = scanner.nextLine();
+//        System.out.println("Would you like to continue?");
+//        String userInputTwo = scanner.nextLine();
+//        System.out.println("------");
+//        System.out.println("number");
+//        System.out.println("------");
+////        This is for the plus one
+//        for (int i = 0; i < Integer.parseInt(userInput); i++){
+//
+//            System.out.println(Integer.parseInt(userInput) + i);
+//        }
+//        System.out.println("------");
+//        System.out.println("squared");
+//        System.out.println("------");
+//        //        This is for the squared
+//        for (int i = 0; i < Integer.parseInt(userInput); i++){
+//            int ans = (int) Math.pow(Integer.parseInt(userInput)+i,2);
+//            System.out.println(ans);
+//        }
+//        System.out.println("------");
+//        System.out.println("cubed");
+//        System.out.println("------");
+//        This is for the cubed
+//        String userInput = scanner.nextLine();
+//        for (int i = 0; i < Integer.parseInt(userInput); i++){
+//            int ans = (int) Math.pow(Integer.parseInt(userInput)+i,3);
+//            System.out.println(ans);
+//        }
+//        Convert given number grades into letter grades.
+//
+//                Prompt the user for a numerical grade from 0 to 100.
+//
+//        Display the corresponding letter grade.
+//
+//                Prompt the user to continue.
+//
+//        Assume that the user will enter valid integers for the grades.
+//
+//        The application should only continue if the user agrees to.
+//
+//        Grade Ranges:
+//
+//        A : 100 - 88
+//        B : 87 - 80
+//        C : 79 - 67
+//        D : 66 - 60
+//        F : 59 - 0
+        System.out.print("Enter a grade, user! ");
+        String userInput2 = scanner.nextLine();
+        for (int i = 0; i < Integer.parseInt(userInput2); i++){
+            if (Integer.parseInt(userInput2) <= 100 && Integer.parseInt(userInput2) >= 88) {
+                System.out.println("A");
+            } else if (Integer.parseInt(userInput2) <= 87 && Integer.parseInt(userInput2) >= 80) {
+                System.out.println("B");
+            } else if (Integer.parseInt(userInput2) <= 79 && Integer.parseInt(userInput2) >= 67) {
+                System.out.println("C");
+            } else if (Integer.parseInt(userInput2) <= 66 && Integer.parseInt(userInput2) >= 60) {
+                System.out.println("D");
+            } else if (Integer.parseInt(userInput2) <= 59 & Integer.parseInt(userInput2) >= 0) {
+                System.out.println("F");
+            } else {
+                System.out.println("idk");
+            }
         }
-//        System.out.println(Integer.parseInt(userInput));
-        System.out.println("This displays squared: " + Integer.parseInt(userInput) * 2);
-        System.out.println("This is a break for now to not get me confused.");
-        System.out.printf("--------------------------------%n");
+        System.out.println(Integer.parseInt(userInput2));
     }
 }
 
