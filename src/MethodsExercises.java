@@ -156,15 +156,18 @@ public class MethodsExercises {
                 System.out.println("How many dice you rollin' this time?");
                 int diceCount = localScanner.nextInt();
                 Random randomNumberTwo = new Random();
-                    if (diceCount == 2){
-                        for (int i = 0; i < rollDice; i++) {
-                            System.out.print(randomNumber.nextInt(6) + 1);
-                            System.out.println(" ");
+                if (diceCount == 2){
+                    for (int i = 0; i < rollDice; i++) {
+                        System.out.print(randomNumber.nextInt(6) + 1);
+                        System.out.println(" ");
 
-                        }
-                    } System.out.println("That's it! Thank you for playing!");
+                    }
+                } else if (playAgain.equals(no)){
+                    System.out.println("System out!");
+                    System.out.println("That's it! Thank you for playing!");
       /* Creating Random class object to generate
       random numbers */
+                }
             }
             return numberOfDice;
         }
@@ -172,28 +175,6 @@ public class MethodsExercises {
     }
 }
 
-
-
-//    public static String playAgain(String[] args) {
-//
-//        Scanner input = new Scanner(System.in);
-//        String playAgain = input.nextLine();
-//        String yes = "Y";
-//        String no = "N";
-//
-//        if (playAgain == yes){
-//            System.out.println("Let me ask you this.. do you like cheesecake?");
-//            Scanner inputTwo = new Scanner(System.in);
-//            String cheesecake = input.nextLine();
-//            String yes2 = "Y";
-//            String no2 = "N";
-////            if (cheesecake == yes2){
-//
-////            }
-//        }
-//
-//        return playAgain;
-//    }
 
 
 
