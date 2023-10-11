@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class ConsoleExercises {
     public static void main(String[] args) {
 //      Copy this code into your main method:
-        double pi = 3.14159;
+//        double pi = 3.14159;
 //      Write some Java code that uses the variable pi to output the following:
 //      The value of pi is approximately 3.14.
 //      Don't change the value of the variable; instead, reference one of the links above and use System.out.format to accomplish this.
-        String name = "pi";
-        System.out.printf("The value of %s is %s.", name, pi);
+//        String name = "pi";
+//        System.out.printf("The value of %s is %s.", name, pi);
 
 
 //      Explore the Scanner Class.
@@ -57,5 +57,7 @@ public class ConsoleExercises {
 //        System.out.println("The perimeter of this classroom is: " + ((Integer.parseInt(userLength) * 2) + (Integer.parseInt(userWidth) * 2)));
 ////        The area of a rectangle is equal to the length times the width, and the perimeter of a rectangle is equal to 2 times the length plus 2 times the width.
 //        System.out.println("The area of this classroom is: " + (Integer.parseInt(userLength)) * (Integer.parseInt(userWidth)));
+
+
     }
 }
